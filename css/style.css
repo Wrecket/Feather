@@ -1,0 +1,249 @@
+* {
+	font-family: Featherwold;
+}
+
+.title {
+	opacity: 0.8;
+}
+
+.satisfy {
+	font-family: 'Satisfy', cursive;
+}
+
+.paratext {
+	opacity: 0.8;
+	font-size: 1.05rem;
+}
+
+.customcontainersmall:hover {
+	opacity: 0.3;
+}
+
+.container,
+.journeyspread {
+	padding-top: 100px;
+	display: block;
+}
+.journeybanner {
+	width: 100%;
+}
+
+.row {
+	font-family: Featherwold;
+}
+
+.pillow {
+	width: 50%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.bannerhome {
+	display: block;
+	margin: 0;
+	width: 100%;
+	padding-top: 62px;
+}
+
+.backgroundi {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+	margin-top: 70px;
+}
+
+.nav-link {
+	font-family: Featherwold;
+	font-size: 1.1rem;
+}
+
+.padder {
+	padding-top: 25px;
+}
+
+.padder2 {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+footer {
+	opacity: 0.7;
+	text-align: center;
+	position: fixed;
+	height: 30px;
+	bottom: 0;
+	width: 100%;
+}
+
+ul.navbar-nav li {
+	position: relative;
+}
+.tollfree {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.customcontainersmall {
+	border: 1px grey;
+	text-align: center;
+	max-width: 90%;
+	margin: 10px auto;
+	padding: 10px 20px;
+	background-color: lightgrey;
+	opacity: 0.8;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.customcontainer {
+	border: 1px grey;
+	text-align: center;
+	max-width: 90%;
+	margin: 10px auto;
+	padding: 10px 20px;
+	background-color: lightgrey;
+	opacity: 0.8;
+}
+
+.customcontainerwhite {
+	border: 1px white;
+	text-align: center;
+	max-width: 90%;
+	margin: 10px auto;
+	padding: 10px 20px;
+	background-color: white;
+	opacity: 0.8;
+}
+
+.icon {
+	margin-top: 40px;
+	height: 50px;
+	width: 50px;
+}
+
+h1 {
+	font-family: Featherwold;
+}
+
+h2 {
+	font-family: Featherwold;
+}
+
+h3 {
+	font-family: Featherwold;
+}
+
+p {
+	font-family: Featherwold;
+}
+
+header[role="banner"] #logo-main {
+	display: block;
+	margin: 20px auto;
+}
+#navbar-primary.navbar-default {
+	background: transparent;
+	border: none;
+}
+#navbar-primary.navbar-default .navbar-nav {
+	width: 100%;
+	text-align: center;
+}
+#navbar-primary.navbar-default .navbar-nav > li {
+	display: inline-block;
+	float: none;
+}
+#navbar-primary.navbar-default .navbar-nav > li > a {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.loginbutton {
+	float: right;
+}
+
+.icontext {
+	padding-top: 20px;
+	font-size: 0.9em;
+	letter-spacing: 0.5em;
+}
+
+/* Contact form */
+.contactinput {
+	width: 100%;
+	display: inline;
+}
+
+.formbox {
+	padding-top: 40px;
+	text-align: left;
+}
+
+.contactbox {
+	display: inline-block;
+}
+
+.contacttext {
+	font-family: Featherwold;
+	font-size: 1.25em;
+	letter-spacing: 0.5em;
+	text-align: center;
+}
+/* /Contact form */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.gdpr-popup {
+	display: inline-flex;
+	align-items: center;
+	font-family: 'TradeGothicLTStd-Extended', Helvetica, Arial, sans-serif;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	background: black;
+	width: 100%;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	display: none;
+}
+
+.gdpr-popup .gdpr-text .privacy-link {
+	color: #fff;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.gdpr-popup .gdpr-btn-container,
+.gdpr-btn-container2 {
+	margin-left: auto;
+	order: 2;
+	align-self: flex-end;
+}
+.gdpr-popup .gdpr-btn-container .accept-gdpr,
+.gdpr-btn-container2 {
+	float: right !important;
+	border-color: #fff;
+}
+
+.gdpr-btn-container2 {
+	align-self: flex-end;
+	order: 2;
+}
+
+.gdpr-popup .gdpr-text {
+	margin: 0 15px 0 0px;
+	font-size: 0.75rem;
+}
