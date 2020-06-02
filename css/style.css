@@ -1,7 +1,18 @@
+/* Generic stylers */
+
 * {
 	font-family: Featherwold;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
 .title {
 	opacity: 0.8;
 }
@@ -13,10 +24,6 @@
 .paratext {
 	opacity: 0.8;
 	font-size: 1.05rem;
-}
-
-.customcontainersmall:hover {
-	opacity: 0.3;
 }
 
 .container,
@@ -52,11 +59,6 @@
 	margin-top: 70px;
 }
 
-.nav-link {
-	font-family: Featherwold;
-	font-size: 1.1rem;
-}
-
 .padder {
 	padding-top: 25px;
 }
@@ -66,44 +68,13 @@
 	padding-bottom: 50px;
 }
 
-footer {
-	opacity: 0.7;
-	text-align: center;
-	position: fixed;
-	height: 30px;
-	bottom: 0;
-	width: 100%;
+.icon {
+	margin-top: 40px;
+	height: 50px;
+	width: 50px;
 }
 
-ul.navbar-nav li {
-	position: relative;
-}
-.tollfree {
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: auto;
-}
-
-.customcontainersmall {
-	border: 1px grey;
-	text-align: center;
-	max-width: 90%;
-	margin: 10px auto;
-	padding: 10px 20px;
-	background-color: lightgrey;
-	opacity: 0.8;
-}
-
-a {
-	text-decoration: none;
-	color: black;
-}
-
-a:hover {
-	text-decoration: none;
-	color: black;
-}
+/* layout & containers */
 
 .customcontainer {
 	border: 1px grey;
@@ -125,26 +96,51 @@ a:hover {
 	opacity: 0.8;
 }
 
-.icon {
-	margin-top: 40px;
-	height: 50px;
-	width: 50px;
+.customcontainersmall {
+	border: 1px grey;
+	text-align: center;
+	max-width: 90%;
+	margin: 10px auto;
+	padding: 10px 20px;
+	background-color: lightgrey;
+	opacity: 0.8;
 }
 
-h1 {
-	font-family: Featherwold;
+footer {
+	opacity: 0.7;
+	text-align: center;
+	position: fixed;
+	height: 30px;
+	bottom: 0;
+	width: 100%;
 }
 
-h2 {
-	font-family: Featherwold;
+/* interactivity */
+
+.customcontainersmall:hover {
+	opacity: 0.3;
 }
 
-h3 {
-	font-family: Featherwold;
+a:hover {
+	text-decoration: none;
+	color: black;
 }
 
-p {
+/* Navbar */
+
+.nav-link {
 	font-family: Featherwold;
+	font-size: 1.1rem;
+}
+
+ul.navbar-nav li {
+	position: relative;
+}
+.tollfree {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 
 header[role="banner"] #logo-main {
@@ -197,12 +193,6 @@ header[role="banner"] #logo-main {
 	font-size: 1.25em;
 	letter-spacing: 0.5em;
 	text-align: center;
-}
-/* /Contact form */
-
-body {
-	margin: 0;
-	padding: 0;
 }
 
 /* cookies banner */
