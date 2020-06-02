@@ -205,45 +205,55 @@ body {
 	padding: 0;
 }
 
-.gdpr-popup {
-	display: inline-flex;
-	align-items: center;
-	font-family: 'TradeGothicLTStd-Extended', Helvetica, Arial, sans-serif;
+/* cookies banner */
+
+body {
+	background-color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.cd-cookies-banner {
+	display: block;
+	background-color: rgb(35, 41, 46);
+	color: rgb(255, 255, 255);
+	bottom: 0px;
 	position: fixed;
-	bottom: 0;
-	z-index: 999;
-	background: black;
+	text-align: center;
+	z-index: 9999;
+	box-sizing: border-box;
 	width: 100%;
-	color: #fff;
-	padding: 10px;
-	text-align: center;
-	display: none;
+	padding: .5rem;
+	font-weight: 500;
+	border: 0;
+	margin: 0 auto;
+	font-size: 9pt;
 }
-
-.gdpr-popup .gdpr-text .privacy-link {
-	color: #fff;
-	text-decoration: underline;
-	text-align: center;
+.cd-cookies-banner p {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	padding: 0;
 }
-
-.gdpr-popup .gdpr-btn-container,
-.gdpr-btn-container2 {
-	margin-left: auto;
-	order: 2;
-	align-self: flex-end;
+.cd-cookies-banner p a {
+	outline: none;
+	color: hotpink;
+	text-decoration: none;
 }
-.gdpr-popup .gdpr-btn-container .accept-gdpr,
-.gdpr-btn-container2 {
-	float: right !important;
-	border-color: #fff;
+.cd-cookies-banner p a:hover {
+	color: #ffffff;
 }
-
-.gdpr-btn-container2 {
-	align-self: flex-end;
-	order: 2;
-}
-
-.gdpr-popup .gdpr-text {
-	margin: 0 15px 0 0px;
-	font-size: 0.75rem;
+.cd-cookies-banner .cd-opt-in-btn {
+	color: rgb(255, 255, 255);
+	background-color: black;
+	text-decoration: none;
+	font-size: 11px;
+	-webkit-border-radius: 4px;
+	position: relative;
+	cursor: pointer;
+	margin-left: 10px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 7px 16px 7px;
 }
